@@ -1,0 +1,22 @@
+{
+  "name": "trip_planner_static_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e html,js ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.10",
+    "morgan": "^1.6.1",
+    "node-sass-middleware": "^0.9.6",
+    "nodemon": "^1.7.1",
+    "swig": "^1.4.2"
+  }
+}
